@@ -159,113 +159,35 @@
 			<h2>Projects</h2>
 		</header>
 		<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
-		<div class="project-slider">
-			<button class="prev">&#10094;</button>
-			<div class="project-container">
-				<div class="project-wrapper">
-					<div class="project">
-						<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-				</div>
+		<div class="row gtr-150">
+			<div class="col-4 col-12-medium">
+				<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+				<h3>Magna feugiat lorem</h3>
+				<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+				<ul class="actions special">
+					<li><a href="#" class="button">More</a></li>
+				</ul>
 			</div>
-			<button class="next">&#10095;</button>
+			<div class="col-4 col-12-medium">
+				<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+				<h3>Magna feugiat lorem</h3>
+				<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+				<ul class="actions special">
+					<li><a href="#" class="button">More</a></li>
+				</ul>
+			</div>
+			<div class="col-4 col-12-medium">
+				<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+				<h3>Magna feugiat lorem</h3>
+				<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+				<ul class="actions special">
+					<li><a href="#" class="button">More</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>
 
-<style>
-.project-slider {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	position: relative;
-}
-.project-container {
-	width: 90%;
-	overflow: hidden;
-}
-.project-wrapper {
-	display: flex;
-	transition: transform 0.7s ease-in-out;
-}
-.project {
-	min-width: 33.33%;
-	box-sizing: border-box;
-	padding: 15px;
-}
-.prev, .next {
-	cursor: pointer;
-	background: none;
-	border: none;
-	font-size: 19px;
-}
-</style>
-
-<script>
-let currentIndex = 0;
-const totalProjects = document.querySelectorAll(".project").length;
-const projectWrapper = document.querySelector(".project-wrapper");
-const projectWidth = document.querySelector(".project").offsetWidth;
-
-document.querySelector(".next").addEventListener("click", () => {
-	if (currentIndex < totalProjects - 3) {
-		currentIndex++;
-		projectWrapper.style.transform = `translateX(-${currentIndex * projectWidth}px)`;
-	}
-});
-
-document.querySelector(".prev").addEventListener("click", () => {
-	if (currentIndex > 0) {
-		currentIndex--;
-		projectWrapper.style.transform = `translateX(-${currentIndex * projectWidth}px)`;
-	}
-});
-</script>
 
 </section>		
 		<!-- Four -->
