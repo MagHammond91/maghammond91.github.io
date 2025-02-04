@@ -307,6 +307,27 @@
     #nextBtn {
         right: 10px;
     }
+	@media screen and (max-width: 768px) {
+    .carousel {
+        width: 100%;
+        padding: 20px; /* Reduce padding for better mobile view */
+        gap: 10px; /* Reduce gap between projects */
+    }
+
+    .project {
+        flex: 0 0 90%; /* Show only one project fully */
+        margin: auto; /* Center the project */
+    }
+
+    .carousel-container {
+        max-width: 100%;
+    }
+
+    .carousel-btn {
+        font-size: 30px; /* Bigger arrows for better mobile interaction */
+    }
+}
+
 </style>
 
 <!-- JavaScript for Navigation -->
