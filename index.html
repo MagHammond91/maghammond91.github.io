@@ -160,131 +160,186 @@
 }
 </style>
 
-<!-- Three -->
+<!-- Project Section with Carousel -->
 <section id="three" class="main style1 special">
-	<div class="container">
-		<header class="major">
-			<h2>Projects</h2>
-		</header>
-		<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
-		<div class="project-slider">
-			<button class="prev">&#10094;</button>
-			<div class="project-container">
-				<div class="project-wrapper">
-					<div class="project">
-						<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic05.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic06.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-					<div class="project">
-						<span class="image fit"><img src="images/pic07.jpg" alt="" /></span>
-						<h3>Magna feugiat lorem</h3>
-						<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">More</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<button class="next">&#10095;</button>
-		</div>
-	</div>
+    <div class="container">
+        <header class="major">
+            <h2>Projects</h2>
+        </header>
+        <p>Explore some of my recent work.</p>
+        
+        <!-- Carousel Wrapper -->
+        <div class="carousel-container">
+            <button id="prevBtn" class="carousel-btn">&#10094;</button> <!-- Left Arrow -->
+            <div class="carousel">
+                <div class="project">
+                    <img src="images/pic02.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+					<ul class="actions special">
+						<li><a href="#" class="button">More</a></li>
+					</ul>
+                </div>
+                <div class="project">
+                    <img src="images/pic03.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur..</p>
+                    <ul class="actions special">
+						<li><a href="#" class="button">More</a></li>
+					</ul>
+                </div>
+                <div class="project">
+                    <img src="images/pic04.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                    <ul class="actions special">
+						<li><a href="#" class="button">More</a></li>
+					</ul>
+                </div>
+                <div class="project">
+                    <img src="images/pic05.jpg" alt="Project 4">
+                    <h3>Project 4</h3>
+                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                    <ul class="actions special">
+						<li><a href="#" class="button">More</a></li>
+					</ul>
+                </div>
+                <div class="project">
+                    <img src="images/pic06.jpg" alt="Project 5">
+                    <h3>Project 5</h3>
+                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur..</p>
+                    <ul class="actions special">
+						<li><a href="#" class="button">More</a></li>
+					</ul>
+                </div>
+				<div class="project">
+                    <img src="images/pic06.jpg" alt="Project 6">
+                    <h3>Project 6</h3>
+                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                    <ul class="actions special">
+						<li><a href="#" class="button">More</a></li>
+					</ul>
+                </div>
+            </div>
+            <button id="nextBtn" class="carousel-btn">&#10095;</button> <!-- Right Arrow -->
+        </div>
+    </div>
 </section>
 
+<!-- CSS for Carousel -->
 <style>
-.project-slider {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	position: relative;
+    .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 40px;
+        padding: 50px;
+        width: 90%;
+        scrollbar-width: none;
+    }
+
+    .carousel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .project {
+        flex: 0 0 260px;
+        text-align: center;
+        background: none;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .project img {
+        width: 100%;
+        height: 200px; /* Fixed height for uniformity */
+        object-fit: cover;
+        border-radius: 1px;
+    }
+
+    .project h3 {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+    .project p {
+        flex-grow: 1; /* Pushes the button to the bottom */
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .project .button {
+        display: block;
+        margin-top: auto;
+    }
+
+    .carousel-btn {
+        background: none;
+        color: none;
+        border: none;
+        padding: 5px 5px;
+        cursor: pointer;
+        font-size: 24px;
+        position: center;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+
+    #prevBtn {
+        left: 10px;
+    }
+
+    #nextBtn {
+        right: 10px;
+    }
+	@media screen and (max-width: 768px) {
+    .carousel {
+        width: 100%;
+        padding: 20px; /* Reduce padding for better mobile view */
+        gap: 10px; /* Reduce gap between projects */
+    }
+
+    .project {
+        flex: 0 0 90%; /* Show only one project fully */
+        margin: auto; /* Center the project */
+    }
+
+    .carousel-container {
+        max-width: 100%;
+    }
+
+    .carousel-btn {
+        font-size: 30px; /* Bigger arrows for better mobile interaction */
+    }
 }
-.project-container {
-	width: 80%;
-	overflow: hidden;
-}
-.project-wrapper {
-	display: flex;
-	transition: transform 0.3s ease-in-out;
-}
-.project {
-	min-width: 33.33%;
-	box-sizing: border-box;
-	padding: 10px;
-}
-.prev, .next {
-	cursor: pointer;
-	background: none;
-	border: none;
-	font-size: 24px;
-	color: #000;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-}
-.prev {
-	left: 10px;
-}
-.next {
-	right: 10px;
-}
+
 </style>
 
+<!-- JavaScript for Navigation -->
 <script>
-let currentIndex = 0;
-const totalProjects = document.querySelectorAll(".project").length;
-const projectWrapper = document.querySelector(".project-wrapper");
-const projectWidth = document.querySelector(".project").offsetWidth;
+    document.getElementById("prevBtn").addEventListener("click", function() {
+        document.querySelector(".carousel").scrollBy({ left: -320, behavior: "smooth" });
+    });
 
-document.querySelector(".next").addEventListener("click", () => {
-	if (currentIndex < totalProjects - 3) {
-		currentIndex++;
-		projectWrapper.style.transform = `translateX(-${currentIndex * projectWidth}px)`;
-	}
-});
-
-document.querySelector(".prev").addEventListener("click", () => {
-	if (currentIndex > 0) {
-		currentIndex--;
-		projectWrapper.style.transform = `translateX(-${currentIndex * projectWidth}px)`;
-	}
-});
+    document.getElementById("nextBtn").addEventListener("click", function() {
+        document.querySelector(".carousel").scrollBy({ left: 320, behavior: "smooth" });
+    });
 </script>
-
 
 </section>		
 		<!-- Four -->
